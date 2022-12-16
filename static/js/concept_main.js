@@ -2,7 +2,7 @@
     'use strict';
 
     var q = d3.queue()
-		.defer(d3.json, "static/data/group_list_tweetID_subgroups_greater1.json");
+		.defer(d3.json, "static/data/group_list_tweetID_subgroups_greater1_500m.json");
     q.await(ready);
 
     function ready(error, allData){
